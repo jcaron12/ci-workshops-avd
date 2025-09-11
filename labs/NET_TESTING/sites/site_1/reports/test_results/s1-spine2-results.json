@@ -66,10 +66,7 @@
       "bgp"
     ],
     "description": "Verifies the health of specific BGP peer(s) for given address families.",
-    "result": "failure",
-    "messages": [
-      "AFI: ipv4 SAFI: unicast VRF: default Peer: 172.16.1.19 - Session state is not established - State: Active"
-    ],
+    "result": "success",
     "custom_field": "BGP IPv4 Unicast Peer: s1-brdr1 (IP: 172.16.1.19)"
   },
   {
